@@ -16,20 +16,37 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
+
     // inserindo menu na barra de aplicativos
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = getMenuInflater();
-        inflater.inflate(R.menu.menu,menu);
+        inflater.inflate(R.menu.menu, menu);
         return super.onCreateOptionsMenu(menu);
     }
     // criando o método para clicar nos itens do menu
 
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
-        switch (item.getItemId()){
+        switch (item.getItemId()) {
             case R.id.mFav:
-                Toast.makeText(getApplicationContext(),"Cliquei no favoritos e a mágica aconteceu",Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), "Cliquei no favoritos e a mágica aconteceu", Toast.LENGTH_SHORT).show();
+                break;
+            case R.id.mBus:
+                Toast.makeText(getApplicationContext(), "Cliquei no buscar e a mágica aconteceu", Toast.LENGTH_SHORT).show();
+                break;
+            case R.id.mConfig:
+                Toast.makeText(getApplicationContext(), "Cliquei no configurações e a mágica aconteceu", Toast.LENGTH_SHORT).show();
+                break;
+            case R.id.mHist:
+                Toast.makeText(getApplicationContext(), "Cliquei no histórico e a mágica aconteceu", Toast.LENGTH_SHORT).show();
+                break;
+            case R.id.mSobre:
+                Toast.makeText(getApplicationContext(), "Cliquei no sobre e a mágica aconteceu", Toast.LENGTH_SHORT).show();
+                break;
+            case R.id.mComp:
+                Toast.makeText(getApplicationContext(), "Cliquei no compartilhar e a mágica aconteceu", Toast.LENGTH_SHORT).show();
+                break;
         }
 
         return super.onOptionsItemSelected(item);
