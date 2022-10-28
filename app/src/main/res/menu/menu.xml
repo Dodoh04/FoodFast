@@ -3,33 +3,24 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <!-- materialdesign (site) -->
     <item
-        android:id="@+id/mFav"
-        android:icon="@drawable/ic_baseline_favorite"
-        android:title="Favoritos"
+        android:id="@+id/mPerfil"
+        android:icon="@drawable/ic_baseline_person"
+        android:title="Perfil"
         app:showAsAction="ifRoom" />
     <item
-        android:id="@+id/mBus"
-        android:icon="@drawable/ic_baseline_search"
-        android:title="Buscar"
+        android:id="@+id/mLinha"
+        android:icon="@drawable/ic_baseline_timeline"
+        android:title="Linha do tempo"
         app:showAsAction="ifRoom" />
     <item
-        android:id="@+id/mConfig"
-        android:icon="@drawable/ic_baseline_settings"
-        android:title="Configurações"
+        android:id="@+id/mAjuda"
+        android:icon="@drawable/ic_baseline_help"
+        android:title="Ajuda"
         app:showAsAction="ifRoom" />
     <item
-        android:id="@+id/mHist"
-        android:icon="@drawable/ic_baseline_history"
-        android:title="Histórico"
+        android:id="@+id/mFeed"
+        android:icon="@drawable/ic_baseline_feedback"
+        android:title="Feedback"
         app:showAsAction="ifRoom" />
-    <item
-        android:id="@+id/mSobre"
-        android:icon="@drawable/ic_baseline_info"
-        android:title="Sobre"
-        app:showAsAction="ifRoom" />
-    <item
-        android:id="@+id/mComp"
-        android:icon="@drawable/ic_baseline_share"
-        android:title="Compartilhar"
-        app:showAsAction="ifRoom" />
+
 </menu>
