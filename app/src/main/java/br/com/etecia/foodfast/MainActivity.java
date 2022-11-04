@@ -32,14 +32,20 @@ public class MainActivity extends AppCompatActivity {
             case R.id.mPerfil:
                 Toast.makeText(getApplicationContext(), "Cliquei no Perfil e a mágica aconteceu", Toast.LENGTH_SHORT).show();
                 break;
-            case R.id.mLinha:
-                Toast.makeText(getApplicationContext(), "Cliquei no Linha do tempo e a mágica aconteceu", Toast.LENGTH_SHORT).show();
+            case R.id.mPesquisa:
+                Toast.makeText(getApplicationContext(), "Cliquei no Pesquisa do tempo e a mágica aconteceu", Toast.LENGTH_SHORT).show();
                 break;
             case R.id.mAjuda:
                 Toast.makeText(getApplicationContext(), "Cliquei no Ajuda e a mágica aconteceu", Toast.LENGTH_SHORT).show();
                 break;
             case R.id.mFeed:
                 Toast.makeText(getApplicationContext(), "Cliquei no Feedback e a mágica aconteceu", Toast.LENGTH_SHORT).show();
+                break;
+            case R.id.mFavorito:
+                Toast.makeText(getApplicationContext(), "Cliquei no favorito e a mágica aconteceu", Toast.LENGTH_SHORT).show();
+                break;
+            case R.id.mConfig:
+                Toast.makeText(getApplicationContext(), "Cliquei no configurações e a mágica aconteceu", Toast.LENGTH_SHORT).show();
                 break;
 
         }
