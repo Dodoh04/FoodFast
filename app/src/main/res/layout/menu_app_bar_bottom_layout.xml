@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".MenuAppBarBottom_Activity">
 
-    //Criando um Menu na parte inferior
+    <!--Criando um Menu na parte inferior-->
     <com.google.android.material.bottomappbar.BottomAppBar
         android:id="@+id/idBottomApp"
         style="@style/Widget.MaterialComponents.BottomAppBar.Colored"
@@ -16,6 +16,14 @@
         app:menu="@menu/menu_top"
         app:navigationIcon="@drawable/ic_baseline_menu"
 
+        />
+    <!--Botão "ADD +"-->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_add"
+        app:layout_anchor="@id/idBottomApp"
+        android:id="@+id/idFAB"
         />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
