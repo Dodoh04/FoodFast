@@ -13,9 +13,9 @@
         android:title="Pesquisa"
         app:showAsAction="ifRoom" />
     <item
-        android:id="@+id/mLinha"
-        android:icon="@drawable/ic_baseline_timeline"
-        android:title="Linha do tempo"
+        android:id="@+id/mFavorito"
+        android:icon="@drawable/ic_baseline_favorite"
+        android:title="Favoritos"
         app:showAsAction="ifRoom" />
 
     <item
@@ -28,5 +28,9 @@
         android:icon="@drawable/ic_baseline_feedback"
         android:title="Feedback"
         app:showAsAction="ifRoom" />
-
+    <item
+        android:id="@+id/mConfig"
+        android:icon="@drawable/ic_baseline_settings"
+        android:title="Configurações"
+        app:showAsAction="ifRoom" />
 </menu>
